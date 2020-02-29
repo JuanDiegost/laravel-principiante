@@ -1,6 +1,42 @@
-# laravel-principiante
+# Laravel principiante
 
 [![time tracker](https://wakatime.com/badge/github/JuanDiegost/blog.svg)](https://wakatime.com/badge/github/JuanDiegost/blog)
+
+## Crear Un proyecto
+
+```zsh
+laravel new blog
+```
+
+## Iniciar servidor
+
+```zsh
+php artisan serve
+```
+
+## Crear un request
+
+```
+php artisan make:request CreateMessageRequest
+```
+
+## Crear un controlador
+
+```
+php artisan make:controller PagesController
+```
+
+## Crear una tabla
+
+```
+php artisan make:migration create_messages_table
+```
+
+## Crear un modelo
+
+```
+ php artisan make:model Message
+```
 
 ## routing
 
